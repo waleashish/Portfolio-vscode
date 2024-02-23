@@ -1,40 +1,26 @@
 import ProjectCard from '../components/ProjectCard';
-import { getMiscProjects } from './api/misc-projects';
+import { getProjects } from './api/projects';
 import styles from '../styles/ProjectsPage.module.css';
 
-const ProjectsPage = ({ misc_projects }) => {
+const ProjectsPage = ({ projects }) => {
   return (
     <>
       <h3>Open Source Projects</h3>
       <br/>
       {/* <center><h4>Machine Learning</h4></center>
-      <hr/> */}
-      {/* <div className={styles.container}>
+      <br/>
+      <hr/>
+      <div className={styles.container}>
         {ml_projects.map((project) => (
           <ProjectCard key={project.id} project={project} />
         ))}
-      </div> */}
-      {/* <br/>
-      <center><h4>Bots</h4></center>
-      <hr/> */}
-      {/* <div className={styles.container}>
-        {bots_projects.map((project) => (
-          <ProjectCard key={project.id} project={project} />
-        ))}
-      </div> */}
-      {/* <br/>
-      <center><h4>PyPi Packages</h4></center>
-      <hr/> */}
-      {/* <div className={styles.container}>
-        {pypi_projects.map((project) => (
-          <ProjectCard key={project.id} project={project} />
-        ))}
-      </div> */}
+      </div>
+      <br/> */}
       <center><h4>Projects Overview</h4></center>
       <br/>
       <hr/>
       <div className={styles.container}>
-        {misc_projects.map((project) => (
+        {projects.map((project) => (
           <ProjectCard key={project.id} project={project} />
         ))}
       </div>
@@ -44,12 +30,10 @@ const ProjectsPage = ({ misc_projects }) => {
 
 export async function getStaticProps() {
   // const ml_projects = getMLProjects();
-  // const bots_projects = getBotsProjects();
-  // const pypi_projects = getPyPiProjects();
-  const misc_projects = getMiscProjects();
+  const projects = getProjects();
 
   return {
-    props: { title: 'Projects', misc_projects },
+    props: { title: 'Projects', projects },
   };
 }
 

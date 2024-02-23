@@ -15,15 +15,20 @@ const contactItems = [
     social: 'GitHub',
     link: 'github.com/waleashish',
     href: 'https://github.com/waleashish',
+  },
+  {
+    social: 'Portfolio',
+    link: '(this)',
+    href: 'https://waleashish.vercel.app/'
   }
 ];
 
 const ContactCode = () => {
   return (
     <div className={styles.code}>
-       <p className={styles.line}>
+       {/* <p className={styles.line}>
        tag: <a>production</a>
-        </p>
+        </p> */}
       <p className={styles.line}>
         <span>waleashish</span>&#58;
       </p>
