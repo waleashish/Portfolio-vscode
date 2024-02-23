@@ -41,8 +41,6 @@ const GithubPage = ({ repos, user }) => {
           <RepoCard key={repo.id} repo={repo} />
         ))}
       </div>
-      <div><center><h3>My Github Calendar</h3></center></div>
-      <br />
     </>
   );
 };
