@@ -17,7 +17,7 @@ const AboutPage = () => {
         <br />
         <Document file={myResume}>
           <Page pageIndex={0} renderMode="svg"/>
-          <Page pageIndex={1} renderMode="svg"/>
+          {/* <Page pageIndex={1} renderMode="svg"/> */}
         </Document>
       </center>
     </>
