@@ -75,7 +75,7 @@ export default function HomePage() {
                 src="/me.jpeg"
                 width={300}
                 height={290}
-                alt="Kostas' Picture"
+                alt="Ashish' Picture"
               />
             </div>
 

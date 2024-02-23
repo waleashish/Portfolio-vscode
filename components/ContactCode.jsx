@@ -15,17 +15,7 @@ const contactItems = [
     social: 'GitHub',
     link: 'github.com/waleashish',
     href: 'https://github.com/waleashish',
-  },
-  {
-    social: 'Google Scholar',
-    link: 'scholar.google.com/<awale>',
-    href: 'https://scholar.google.com/citations?user=9ta0-EsAAAAJ&hl=en',
-  },
-  // {
-  //   social: 'Website',
-  //   link: 'gkos.dev',
-  //   href: 'https://gkos.dev',
-  // },
+  }
 ];
 
 const ContactCode = () => {
