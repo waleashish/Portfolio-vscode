@@ -12,7 +12,7 @@ const CustomHead = ({ title }) => {
         name="keywords"
         content="ashish wale, ashish, wale, software engineer, software development engineer, machine learning engineer, ashish wale portfolio"
       />
-      <meta property="og:title" content="Kostas Georgiou's Portfolio" />
+      <meta property="og:title" content="Ashish Wale's Portfolio" />
       <meta
         property="og:description"
         content="Ashish Wale's Profolio."
