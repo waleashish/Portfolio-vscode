@@ -43,16 +43,6 @@ const GithubPage = ({ repos, user }) => {
       </div>
       <div><center><h3>My Github Calendar</h3></center></div>
       <br />
-      <center>
-        <div className={styles.contributions}>
-          <GitHubCalendar
-            username={process.env.GITHUB_USERNAME}
-            theme={theme}
-            hideColorLegend
-          // hideMonthLabels
-          />
-        </div>
-      </center>
     </>
   );
 };
