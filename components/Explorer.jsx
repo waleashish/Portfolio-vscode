@@ -10,11 +10,11 @@ const explorerItems = [
     path: '/',
     icon: 'react_icon.svg',
   },
-  {
-    name: 'about.html',
-    path: '/about',
-    icon: 'html_icon.svg',
-  },
+  // {
+  //   name: 'about.html',
+  //   path: '/about',
+  //   icon: 'html_icon.svg',
+  // },
   {
     name: 'contact.yml',
     path: '/contact',

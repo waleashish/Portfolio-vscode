@@ -6,7 +6,7 @@ const CustomHead = ({ title }) => {
       <title>{title}</title>
       <meta
         name="description"
-        content="Ashish Wale's Profolio."
+        content="Ashish Wale's Portfolio."
       />
       <meta
         name="keywords"
@@ -15,9 +15,9 @@ const CustomHead = ({ title }) => {
       <meta property="og:title" content="Ashish Wale's Portfolio" />
       <meta
         property="og:description"
-        content="Ashish Wale's Profolio."
+        content="Ashish Wale's Portfolio."
       />
-      <meta property="og:image" content="https://imgur.com/YTNNknY.png" />
+      <meta property="og:image" content="https://i.imgur.com/haKvt2x.png" />
       <meta property="og:url" content="https://waleashish.vercel.app" />
       <meta name="twitter:card" content="summary_large_image" />
     </Head>
