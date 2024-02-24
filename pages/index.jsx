@@ -29,6 +29,12 @@ export default function HomePage() {
                     <span key='Tensorflow' className='Tensorflow'>
                       Python
                     </span>
+                    <span key='APIs' className='APIs'>
+                      Spring
+                    </span>
+                    <span key='Data-Pipelines' className='Data-Pipelines'>
+                      Django
+                    </span>
                     <span key='Apache-Spark' className='Apache-Spark'>
                       Javascript
                     </span>
@@ -57,10 +63,10 @@ export default function HomePage() {
                 </div>
               </div>
             </div>
-            <Link href="/about">
+            {/* <Link href="/about">
               <button className={styles.button}>About Me</button>
             </Link>
-            {/* <Link href="/projects">
+            <Link href="/projects">
               <button className={styles.button}>View Projects</button>
             </Link> */}
             <Link href="/contact">
