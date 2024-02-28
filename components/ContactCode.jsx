@@ -3,8 +3,8 @@ import styles from '../styles/ContactCode.module.css';
 const contactItems = [
   {
     social: 'Email',
-    link: 'awale1@asu.edu',
-    href: 'mailto:awale1@asu.edu',
+    link: 'ashishwale747@gmail.com',
+    href: 'mailto:ashishwale747@gmail.com',
   },
   {
     social: 'LinkedIn',

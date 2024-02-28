@@ -1,4 +1,6 @@
 import styles from '../styles/ProjectCard.module.css';
+import GithubIcon from '../components/icons/GithubIcon';
+import PencilIcon from '../components/icons/PencilIcon'
 
 const ProjectCard = ({ project }) => {
   return (
@@ -13,48 +15,46 @@ const ProjectCard = ({ project }) => {
             </span>
           ))}
         </div>
-        <div className={styles.cta}>
+      </div>
+      <div className={styles.cta}>
+        <div>
+          {project.scholar && (
+            <a
+              href={project.scholar}
+              target="_blank"
+              rel="noopener noreferrer">
+              <PencilIcon height={20} width={20} className={styles.icon} />
+            </a>
+          )}
+        </div>
+        <div>
           {project.source_code && (
             <a
               href={project.source_code}
               target="_blank"
-              rel="noopener noreferrer"
-              className={styles.underline}
-            >
-              Code
+              rel="noopener noreferrer">
+              <GithubIcon height={20} width={20} className={styles.icon} />
             </a>
           )}
-          {project.demo && (
-          <a
-            href={project.demo}
-            target="_blank"
-            rel="noopener noreferrer"
-            className={styles.underline}
-          >
-            Demo
-          </a>
-          )}
-          {project.scholar && (
-          <a
-            href={project.scholar}
-            target="_blank"
-            rel="noopener noreferrer"
-            className={styles.underline}
-          >
-            Paper
-          </a>
-          )}
-          {project.pypi && (
-          <a
-            href={project.pypi}
-            target="_blank"
-            rel="noopener noreferrer"
-            className={styles.underline}
-          >
-            PyPi
-          </a>
-          )}
         </div>
+        {project.demo && (
+        <a
+          href={project.demo}
+          target="_blank"
+          rel="noopener noreferrer"
+          className={styles.underline}>
+          Demo
+        </a>
+        )}
+        {project.pypi && (
+        <a
+          href={project.pypi}
+          target="_blank"
+          rel="noopener noreferrer"
+          className={styles.underline}>
+          PyPi
+        </a>
+        )}
       </div>
     </div>
   );

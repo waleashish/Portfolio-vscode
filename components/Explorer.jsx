@@ -10,16 +10,6 @@ const explorerItems = [
     path: '/',
     icon: 'react_icon.svg',
   },
-  // {
-  //   name: 'about.html',
-  //   path: '/about',
-  //   icon: 'html_icon.svg',
-  // },
-  {
-    name: 'contact.yml',
-    path: '/contact',
-    icon: 'yml_icon.svg',
-  },
   {
     name: 'projects.py',
     path: '/projects',
@@ -31,9 +21,9 @@ const explorerItems = [
   //   icon: 'json_icon.svg',
   // },
   {
-    name: 'github.md',
-    path: '/github',
-    icon: 'markdown_icon.svg',
+    name: 'contact.yml',
+    path: '/contact',
+    icon: 'yml_icon.svg',
   },
 ];
 

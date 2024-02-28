@@ -4,6 +4,8 @@
   flex-direction: column;
   border-radius: 20px;
   cursor: pointer;
+  display: flex;
+  flex-direction: column;
 }
 
 .card:hover {
@@ -13,6 +15,7 @@
 .content {
   padding: 1rem;
   border-radius: 0 0 20px 20px;
+  margin-bottom: auto;
 }
 
 .content p {
@@ -36,7 +39,10 @@
 
 .cta {
   display: flex;
-  gap: 1rem;
+  padding: 1rem;
+  border-radius: 0 0 20px 20px;
+  margin-top: auto;
+  justify-content: space-between;
 }
 
 .underline {
