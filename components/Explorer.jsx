@@ -6,12 +6,17 @@ import styles from '../styles/Explorer.module.css';
 
 const explorerItems = [
   {
-    name: 'home.jsx',
+    name: 'Home.jsx',
     path: '/',
     icon: 'react_icon.svg',
   },
   {
-    name: 'projects.py',
+    name: 'WorkExperience.java',
+    path: '/about',
+    icon: 'java_icon.svg'
+  },
+  {
+    name: 'Projects.py',
     path: '/projects',
     icon: 'py_icon.svg',
   },
@@ -21,7 +26,7 @@ const explorerItems = [
   //   icon: 'json_icon.svg',
   // },
   {
-    name: 'contact.yml',
+    name: 'Contact.yml',
     path: '/contact',
     icon: 'yml_icon.svg',
   },

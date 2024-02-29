@@ -4,6 +4,12 @@ A Visual Studio Code themed developer portfolio website built with Next.js and d
 
 ![vscode-portfolio banner](https://i.imgur.com/haKvt2x.png)
 
+## Installing the next module
+
+```bash
+npm i next
+```
+
 ## Running Development Server
 
 ```bash

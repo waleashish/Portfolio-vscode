@@ -1,0 +1,18 @@
+.card {
+    display: grid;
+    grid-template-columns: 200px auto;
+    grid-gap: 10px;
+    border-radius: 20px;
+    overflow-wrap: break-word;
+}
+
+.content {
+    padding: 1rem;
+    border-radius: 0 0 20px 20px;
+    margin-bottom: auto;
+}
+
+.content p {
+    font-size: 0.8rem;
+    margin-top: 0.5rem;
+}
