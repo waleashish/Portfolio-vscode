@@ -17,6 +17,11 @@ const contactItems = [
     href: 'https://github.com/waleashish',
   },
   {
+    social: 'Medium',
+    link: 'medium.com/waleashish',
+    href: 'https://medium.com/@waleashish',
+  },
+  {
     social: 'Portfolio',
     link: '(this)',
     href: 'https://waleashish.vercel.app/'
