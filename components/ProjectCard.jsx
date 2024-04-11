@@ -6,7 +6,13 @@ const ProjectCard = ({ project }) => {
   return (
     <div className={styles.card}>
       <div className={styles.content}>
-        <h3>{project.name}</h3>
+        <a 
+          href={project.source_code}
+          target="_blank"
+          // rel="noopener noreferrer"
+        >
+          <h3>{project.name}</h3>
+        </a>
         <p>{project.description}</p>
         <div className={styles.tags}>
           {project.tags.map((tag) => (

@@ -1,12 +1,11 @@
 import Link from 'next/link';
 import { useRouter } from 'next/router';
 import FilesIcon from './icons/FilesIcon';
-import GithubIcon from './icons/GithubIcon';
-import CodeIcon from './icons/CodeIcon';
 import MailIcon from './icons/MailIcon';
-import AccountIcon from './icons/AccountIcon';
 import SettingsIcon from './icons/SettingsIcon';
 import styles from '../styles/Sidebar.module.css';
+import WorkExperienceIcon from './icons/WorkexIcon';
+import SourceControlIcon from './icons/SourceControlIcon';
 
 const sidebarTopItems = [
   {
@@ -14,11 +13,11 @@ const sidebarTopItems = [
     path: '/',
   },
   {
-    Icon: GithubIcon,
-    path: '/github',
+    Icon: WorkExperienceIcon,
+    path: '/about',
   },
   {
-    Icon: CodeIcon,
+    Icon: SourceControlIcon,
     path: '/projects',
   },
   // {
