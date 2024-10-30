@@ -1,17 +1,17 @@
 [
   {
     "id": 1,
-    "name": "Football Live",
-    "description": "A streamlit application visualizing live football updates of Premier Leagure including current standings, top scorers, fixtures, etc.",
-    "tags": ["Python", "SQL", "Streamlit", "Apache Airflow", "Docker", "BigQuery", "ETL"],
-    "source_code": "https://github.com/waleashish/Football-Live"
+    "name": "Voices Unheard - Hackathon 2nd Prize",
+    "description": "An AI-driven platform where indeginous people affected by Arizona's Mining Industry can raise their concerns. The platform also provides a clustered view of issues which enables the Mining Corporations to take targeted actions.",
+    "tags": ["Java", "JavaScript", "Spring Boot", "Spring Security", "React", "D3", "AWS", "RDS", "EC2", "Sagemaker", "Docker"],
+    "source_code": "https://github.com/rushabhj16/sustainable-az-spark-challenge"
   },
   {
     "id": 2,
-    "name": "Test Weaver",
-    "description": "A web application to effortlessly create set of test cases in the desired testing framework using the power of LLMs.",
-    "tags": ["Java", "Spring", "React", "Axios", "LLM", "GPT", "Python", "automation"],
-    "source_code": "https://github.com/waleashish/Test-weaver"
+    "name": "ATMSeer - An AutoML analytics platform",
+    "description": "A platform that enables users to upload their datasets and get the best model for their data. The platform also provides a detailed analysis of the data and the model.",
+    "tags": ["Python", "JavaScript", "Flask", "React", "D3", "Docker", "Shell"],
+    "source_code": "https://github.com/waleashish/ATMSeer"
   },
   {
     "id": 3,
@@ -20,11 +20,11 @@
     "tags": ["LLM", "NLP", "Python", "PyTorch", "Transformers"]
   },
   {
-    "id": 4,
-    "name": "Traffic Counter",
-    "description": "An application that detects and counts vehicles in traffic using background separation techniques.",
-    "tags": ["Python", "OpenCV", "image-processor", "Computer Vision"],
-    "source_code": "https://github.com/waleashish/traffic-vehicle-counter"
+    "id": 9,
+    "name": "Job Application Management System",
+    "description": "A web application to manage job applications. The application has GMail API integration to automatically track and update the status of job applications based on emails from companies.",
+    "tags": ["Java", "JavaScript","Spring Boot", "Spring Security", "React", "Docker", "GMail API"],
+    "source_code": "https://github.com/waleashish/Job-Application-Management-System"
   },
   {
     "id": 5,
@@ -33,6 +33,13 @@
     "tags": ["Python", "TensorFlow", "CNN", "skLearn", "Computer Vision"],
     "source_code": "https://github.com/waleashish/Traffic-sign-recongition-cnn",
     "scholar": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3645805"
+  },
+  {
+    "id": 4,
+    "name": "Traffic Counter",
+    "description": "An application that detects and counts vehicles in traffic using background separation techniques.",
+    "tags": ["Python", "OpenCV", "image-processor", "Computer Vision"],
+    "source_code": "https://github.com/waleashish/traffic-vehicle-counter"
   },
   {
     "id": 6,
@@ -47,5 +54,12 @@
     "description": "Simple review classification model to smartly recommend products to users based on reviews.",
     "tags": ["Python", "TensorFlow", "LSTM",  "NLP"],
     "source_code": "https://github.com/waleashish/Online-product-review-classification"
+  },
+  {
+    "id": 8,
+    "name": "Covid-19 Tracker",
+    "description": "A simple web application to track the spread of Covid-19 across the globe.",
+    "tags": ["Python", "Flask", "HTML", "CSS", "JavaScript", "Bootstrap"],
+    "source_code": ""
   }
 ]

@@ -30,22 +30,46 @@ export default function HomePage() {
                       Python
                     </span>
                     <span key='APIs' className='APIs'>
-                      Spring
+                      Spring Framework
+                    </span>
+                    <span key='APIs' className='APIs'>
+                      JavaScript
+                    </span>
+                    <span key='APIs' className='APIs'>
+                      React
+                    </span>
+                    <span key='APIs' className='APIs'>
+                      D3
+                    </span>
+                    <span key='APIs' className='APIs'>
+                      Data Visualization
                     </span>
                     <span key='Data-Pipelines' className='Data-Pipelines'>
                       Django
                     </span>
-                    <span key='Apache-Spark' className='Apache-Spark'>
-                      Javascript
+                    <span key='MLOps' className='MLOps'>
+                      Flask
                     </span>
                     <span key='SQL' className='SQL'>
                       SQL
                     </span>
+                    <span key='Software-Design' className='NoSQL'>
+                      PostgreSQL
+                    </span>
+                    <span key='Software-Design' className='Software-Design'>
+                      MongoDB
+                    </span>
                     <span key='APIs' className='APIs'>
                       APIs
                     </span>
+                    <span key='APIs' className='APIs'>
+                      CI/CD
+                    </span>
+                    <span key='APIs' className='APIs'>
+                      AWS
+                    </span>
                     <span key='Computer-Vision' className='Computer-Vision'>
-                      Apache-Kafka
+                      Kafka
                     </span>
                     <span key='Data-Pipelines' className='Data-Pipelines'>
                       Data-Pipelines
