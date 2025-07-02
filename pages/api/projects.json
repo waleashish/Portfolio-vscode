@@ -1,33 +1,39 @@
 [
   {
     "id": 1,
+    "name": "Elastic Face Recognition on AWS – Scalable Cloud-Based AI System",
+    "description": "A cloud based multi-tier application that performs face recognition on images and videos. The application uses AWS services like EC2, S3, SQS, Python and Flask to provide a scalable solution.",
+    "tags": ["Python", "Flask", "AWS", "EC2", "S3", "SQS", "Docker", "OpenCV"]
+  },
+  {
+    "id": 2,
     "name": "Voices Unheard - Hackathon 2nd Prize",
     "description": "An AI-driven platform where indeginous people affected by Arizona's Mining Industry can raise their concerns. The platform also provides a clustered view of issues which enables the Mining Corporations to take targeted actions.",
     "tags": ["Java", "JavaScript", "Spring Boot", "Spring Security", "React", "D3", "AWS", "RDS", "EC2", "Sagemaker", "Docker"],
     "source_code": "https://github.com/rushabhj16/sustainable-az-spark-challenge"
   },
   {
-    "id": 2,
+    "id": 3,
     "name": "ATMSeer - An AutoML analytics platform",
     "description": "A platform that enables users to upload their datasets and get the best model for their data. The platform also provides a detailed analysis of the data and the model.",
     "tags": ["Python", "JavaScript", "Flask", "React", "D3", "Docker", "Shell"],
     "source_code": "https://github.com/waleashish/ATMSeer"
   },
   {
-    "id": 3,
+    "id": 4,
     "name": "LLM long range dependency resolver",
     "description": "A research study to resolve long range dependencies in extremely large datasets by performing prompt compression using selective context methodology.",
     "tags": ["LLM", "NLP", "Python", "PyTorch", "Transformers"]
   },
   {
-    "id": 9,
+    "id": 5,
     "name": "Job Application Management System",
     "description": "A web application to manage job applications. The application has GMail API integration to automatically track and update the status of job applications based on emails from companies.",
     "tags": ["Java", "JavaScript","Spring Boot", "Spring Security", "React", "Docker", "GMail API"],
     "source_code": "https://github.com/waleashish/Job-Application-Management-System"
   },
   {
-    "id": 5,
+    "id": 6,
     "name": "Traffic Sign Recognition System",
     "description": "A computer vision system to effectively identify traffic signs for real-time automated driver assistance.",
     "tags": ["Python", "TensorFlow", "CNN", "skLearn", "Computer Vision"],
@@ -35,28 +41,28 @@
     "scholar": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3645805"
   },
   {
-    "id": 4,
+    "id": 7,
     "name": "Traffic Counter",
     "description": "An application that detects and counts vehicles in traffic using background separation techniques.",
     "tags": ["Python", "OpenCV", "image-processor", "Computer Vision"],
     "source_code": "https://github.com/waleashish/traffic-vehicle-counter"
   },
   {
-    "id": 6,
+    "id": 8,
     "name": "Emotion Analyzer",
     "description": "Classifies text into 11 categories of emotions. Used in directing the voice tone in a text-to-speech converter app.",
     "tags": ["Python", "Trax", "LSTM", "Text-to-speech"],
     "source_code": "https://github.com/waleashish/Emotion-extraction-from-text"
   },
   {
-    "id": 7,
+    "id": 9,
     "name": "Product recommendation system",
     "description": "Simple review classification model to smartly recommend products to users based on reviews.",
     "tags": ["Python", "TensorFlow", "LSTM",  "NLP"],
     "source_code": "https://github.com/waleashish/Online-product-review-classification"
   },
   {
-    "id": 8,
+    "id": 10,
     "name": "Covid-19 Tracker",
     "description": "A simple web application to track the spread of Covid-19 across the globe.",
     "tags": ["Python", "Flask", "HTML", "CSS", "JavaScript", "Bootstrap"],
